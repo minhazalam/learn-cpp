@@ -1,3 +1,3 @@
-# learn-cpp
+# Learn-cpp
 
-## This repository will contains all the codes from basci to advannce while learning this amazing language
+## This repository will contains all the codes from basic to advannce wile learning this amazing language  
