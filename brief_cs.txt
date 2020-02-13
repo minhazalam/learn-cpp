@@ -1,3 +1,6 @@
 Essential Fundamentals
 
 This is a brief introduction about how computer system actually works.
+/**
+    Will add diagram to show the working of computer system
+*/
