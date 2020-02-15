@@ -11,5 +11,9 @@ int main()
 
     cout << (int) ch << endl; // -128 kind of cyclic behaviour if overflow
 
+    //int x  = ;
+    
+    //cout<<(int) x << endl;
+
     return 0;
 }
