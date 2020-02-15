@@ -37,7 +37,7 @@ int main()
 
     //typecasting
     float f;
-    f = (float) a / b;
+    f = (float) a / b; //CHANGING INT TO FLOAT AT OPERATION TIME ITSELF
     cout << "ans f : " << f <<endl;
 
     return 0;
