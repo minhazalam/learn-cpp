@@ -13,7 +13,7 @@ using namespace std;
 int main()
 {
     int a, b, c;
-    float root_1, root_2;
+    float root_1, root_2; //can be decimal values
 
     cout << "a ";
     cin >> a;
