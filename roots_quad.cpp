@@ -24,8 +24,8 @@ int main()
     cout << "c ";
     cin >> c;
 
-    root_1 = (-b + sqrt(pow(b, 2) - 4*a*c)) / (2*a);
-    root_2 = (-b - sqrt(pow(b, 2) - 4*a*c)) / (2*a);
+    root_1 = (-b + sqrt(pow(b, 2) - (4*a*c))) / (2*a);
+    root_2 = (-b - sqrt(pow(b, 2) - (4*a*c))) / (2*a);
 
     cout << "frist root of the quad eqn : " << root_1 << endl;
     cout << "second root of the quad eqn : " << root_2 << endl;
