@@ -16,7 +16,7 @@ int main()
     {
         if (num % i == 0)
         {
-            //cout << i << endl;
+            //cout << i << endl; //prints factors
             sum += i;
         }
     }
