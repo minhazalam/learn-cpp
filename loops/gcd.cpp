@@ -25,7 +25,7 @@ int main()
             b -= a;
         }
     }
-    cout << "gcd of two numbers: " << a <<endl;
+    cout << "gcd of two numbers: " << b <<endl;
 
     return 0;
 }
