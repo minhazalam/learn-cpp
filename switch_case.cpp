@@ -14,7 +14,7 @@ int main()
     switch (day)
     {
         case 1 : cout <<"Monday\n";
-            break;
+            break; // if no break statement then program will go in fall thru condition
         case 2 : cout << "tues";
         break;
 
