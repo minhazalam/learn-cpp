@@ -13,11 +13,9 @@ int main()
 
     switch (day)
     {
-        case 1:
-            cout <<"Monday\n";
+        case 1 : cout <<"Monday\n";
             break;
-        case 2:
-        cout << "tues";
+        case 2 : cout << "tues";
         break;
 
         case 3:
