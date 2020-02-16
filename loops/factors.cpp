@@ -21,7 +21,19 @@ int main()
         }
     }
 
-    cout << "sum of factors : " << sum<<endl;
+    //cout << "sum of factors : " << sum<<endl;
+
+    int temp = 2 * num;
+
+    if (temp == sum)
+    {
+        cout << "Perfect number\n";
+    }
+    else
+    {
+        cout << "Not a perfect number\n";
+    }
+    
 
     return 0;
 }
