@@ -8,10 +8,10 @@ int main()
 {
     int a = 10, b = 5;
 
-    int c = a + b; //accessed globally
-    
+    //int c = a + b; //accessed globally
+
     /* but if we want to limit the access to that block only */
-    if (c > a) //can be declared in if statement itself
+    if (int c = a+b; c > a) //can be declared in if statement itself
     {
         cout << "greater\n";
     }
