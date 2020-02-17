@@ -14,7 +14,7 @@ int main()
 
     fp = display; // initialise
 
-    fp (); // called
+    (*fp) (); // called
 
     return 0;
 }
