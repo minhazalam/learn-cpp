@@ -9,10 +9,21 @@ int main()
     {
         for (int j=0; j < 4; j++)
         {
-            if (i >= j)
+            /* if (i >= j)
             {
                 cout << "* ";
+            } */
+
+            if (i > j)
+            {
+                cout << " ";
             }
+            else
+            {
+                cout << "*";
+            }
+            
+
         }
         cout << endl;
     }
