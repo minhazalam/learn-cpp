@@ -62,7 +62,7 @@ int main()
             cout << "Element presesnt at : " << mid << endl;
             return 0;
         }
-        else if (mid < key)
+        else if (key > arr[mid])
         {
             low = mid + 1; // right half
         }
