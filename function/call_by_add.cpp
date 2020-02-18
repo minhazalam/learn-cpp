@@ -21,6 +21,7 @@ int main()
     cout << "Enter vlues of x & y : ";
     cin >>x>>y;
 
+    // passing the addresses of x and y
     swap(&x, &y);
 
     cout << "x : " << x << " "<< "y " <<y<<endl;
