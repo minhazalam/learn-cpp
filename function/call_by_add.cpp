@@ -6,13 +6,13 @@ using namespace std;
 
 // func to swap two numbers
 // pointers a & b stores addresses of x and y
-void swap(int *a, int *b)
+void swap(int &a, int &b)
 {
     int temp;
 
-    temp= *a;
-    *a= *b;
-    *b = temp;
+    temp= a;
+    a= b;
+    b = temp;
 }
 
 int main()
@@ -22,7 +22,7 @@ int main()
     cin >>x>>y;
 
     // passing the addresses of x and y
-    swap(&x, &y);
+    swap(x, y);
 
     cout << "x : " << x << " "<< "y " <<y<<endl;
 
