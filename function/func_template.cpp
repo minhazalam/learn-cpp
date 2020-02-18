@@ -1,4 +1,7 @@
 // program shows the working of function template
+// if logic of the funtion is same 
+// the only difference is return type
+// In that case we can use function template
 
 #include<iostream>
 using namespace std;
